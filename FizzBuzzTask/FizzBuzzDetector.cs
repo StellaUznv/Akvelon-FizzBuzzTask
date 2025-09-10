@@ -49,11 +49,19 @@ namespace FizzBuzzTask
                     string replacement = "";
 
                     if (wordIndex % 15 == 0)
+                    {
                         replacement = "FizzBuzz";
+                    }
                     else if (wordIndex % 3 == 0)
+                    {
                         replacement = "Fizz";
+                    }
                     else if (wordIndex % 5 == 0)
+                    {
                         replacement = "Buzz";
+                    }
+
+                    
 
                     if (!string.IsNullOrEmpty(replacement))
                     {
